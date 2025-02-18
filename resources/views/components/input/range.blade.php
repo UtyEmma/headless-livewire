@@ -1,0 +1,1 @@
+<input type="range" {{$attributes->except('type')->merge(['class' => 'range'])}}/>
